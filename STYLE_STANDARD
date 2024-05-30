@@ -1,0 +1,32 @@
+Java already has an extensive style guide which most programmers using the language
+follow, so there is not much that needs to be said for us in particular; however, 
+some of the standard Java style rules have not been followed, so I will restate 
+the important ones here.
+
+- Classes use UpperCamelCase
+- variables and methods use lowerCamelCase
+- final variables use UPPER_SNAKE_CASE
+- javadoc comments must come directly before the thing they are commenting. Header
+block with author info should go directly before the class, but after package 
+and import statements
+- opening braces go on the end of the same line as the qualifier they belong to*
+- closing braces are to be indented to the same level as the qualifier they belong to*
+*these can be broken to follow our personal style better. see: 80 column rule
+
+And here are our personal rules for CrusMan
+
+- do not use excessive white space. If you feel like you need to add a gap to 
+break up a block of code, please keep it to a single line. More than one blank 
+line is unnecessary.
+- try to keep your code under 80 columns. going a couple character over is okay,
+but if you find yourself with code that goes well over 80 columns, you probably
+need to reformat anyways. This is to make it more readable, so we can fit all the
+code on the screen at once with a suitably large font to keep it extremely clear.
+- do not use excessively short variable names. Java has no length limit on qualifiers,
+so use a descriptive name and don't cut out vowels or acronymize for now reason.
+- there should be no space between 'for', 'while', or a method name and their
+corrosponding parenthesis. (i.e., 'for(int i...)', not 'for (int i...)')
+- there SHOULD be a space between an 'if', 'else', 'else if', or 'catch' and its
+corrosponding parenthesis.
+- arguments within parenthesis should have no spaces between themselves and the 
+parenthesis. (i.e., 'main(String[] args)', not 'main( String[] args )')
